@@ -36,7 +36,7 @@ And return
 ## Tested Environments
 
 - Linux 64-bit Java 19.0.2, Ubuntu 20.04.05 LTS
-- Melissa data files for 2024-Q3
+- Melissa data files for 2024-Q4
 
 ## Required File(s) and Programs
 #### Binaries
@@ -107,8 +107,8 @@ If you see the version number then you have installed Java and set up your envir
 
 #### Download this project
 ```
-$ git clone https://github.com/MelissaData/ProfilerObject-Java-Linux
-$ cd ProfilerObject-Java-Linux
+git clone https://github.com/MelissaData/ProfilerObject-Java-Linux
+cd ProfilerObject-Java-Linux
 ```
 
 #### Set up Melissa Updater 
@@ -171,28 +171,28 @@ Parameters:
 - Interactive
     
   The script will prompt the user for a csv file, then use the provided csv file to test Profiler Object. For example:
-    ```
-    $ ./MelissaProfilerObjectLinuxJava.sh
-    ```
-    For quiet mode:
-    ```
-    $ ./MelissaProfilerObjectLinuxJava.sh --quiet
-    ```
+  ```
+  ./MelissaProfilerObjectLinuxJava.sh
+  ```
+  For quiet mode:
+  ```
+  ./MelissaProfilerObjectLinuxJava.sh --quiet
+  ```
 
 - Command Line
 
   You can pass a csv file and a license string into the `--file` and `--license` parameters respectively to test Profiler Object. For example:
 
-    With all parameters:
-    ```
-    $ ./MelissaProfilerObjectLinuxJava.sh --file "MelissaProfilerObjectSampleInput.csv"
-    $ ./MelissaProfilerObjectLinuxJava.sh --file "MelissaProfilerObjectSampleInput.csv" --license "<your_license_string>"
-    ```
-    For quiet mode:
-    ```
-    $ ./MelissaProfilerObjectLinuxJava.sh --file "MelissaProfilerObjectSampleInput.csv" --quiet
-    $ ./MelissaProfilerObjectLinuxJava.sh --file "MelissaProfilerObjectSampleInput.csv" --license "<your_license_string>" --quiet
-    ```
+  With all parameters:
+  ```
+  ./MelissaProfilerObjectLinuxJava.sh --file "MelissaProfilerObjectSampleInput.csv"
+  ./MelissaProfilerObjectLinuxJava.sh --file "MelissaProfilerObjectSampleInput.csv" --license "<your_license_string>"
+  ```
+  For quiet mode:
+  ```
+  ./MelissaProfilerObjectLinuxJava.sh --file "MelissaProfilerObjectSampleInput.csv" --quiet
+  ./MelissaProfilerObjectLinuxJava.sh --file "MelissaProfilerObjectSampleInput.csv" --license "<your_license_string>" --quiet
+  ```
 This is the expected outcome of a successful setup for interactive mode:
 
 
